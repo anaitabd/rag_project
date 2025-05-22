@@ -1,0 +1,49 @@
+# Environnements virtuels
+venv/
+.venv/
+ENV/
+env/
+# Fichiers d'environnement
+.env
+*.env
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de logs
+*.log
+
+# Fichiers de base de données SQLite
+*.sqlite3
+
+# Dossiers de migrations auto-générés
+**/migrations/
+!**/migrations/__init__.py
+
+# Fichiers de configuration de l'IDE
+.vscode/
+.idea/
+*.swp
+
+# Fichiers système Mac
+.DS_Store
+
+# Fichiers de cache
+*.cache
+*.pot
+*.pyc
+
+# Fichiers générés par coverage/pytest
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Fichiers de distribution
+dist/
+build/
+*.egg-info/
